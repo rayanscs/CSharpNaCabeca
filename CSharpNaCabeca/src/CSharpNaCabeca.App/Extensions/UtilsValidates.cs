@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace CSharpNaCabeca.App.methods
+namespace CSharpNaCabeca.App.Extensions
+
 {
-    public static class Utils
+    public static class UtilsValidates
     {
         public static bool ValidateCep(string cep)
         {
@@ -34,7 +35,5 @@ namespace CSharpNaCabeca.App.methods
 
             return false;
         }
-
-        public static string CepFormat(string cep) => Convert.ToUInt64(cep).ToString(@"00000\-000");
     }
 }

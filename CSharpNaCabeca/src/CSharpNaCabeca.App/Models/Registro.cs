@@ -1,4 +1,4 @@
-﻿namespace CSharpNaCabeca.App.classes
+﻿namespace CSharpNaCabeca.App.Models
 {
     public class Registro
     {
